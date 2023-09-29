@@ -27,5 +27,9 @@ main .character .image {
     object-fit: cover;
 }
 
+.content {
+    background-color: orange;
+}
+
 
 
