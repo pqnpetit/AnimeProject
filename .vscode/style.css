@@ -40,6 +40,16 @@ main .character .image {
 }
 
 .content .character-name {
-    
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Secular One";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.content .description {
+    color: #ffffff;
+    font-family: "Rubik";
+    line-height: 24px;
 }
 
