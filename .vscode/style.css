@@ -28,8 +28,18 @@ main .character .image {
 }
 
 .content {
-    background-color: orange;
+    position: absolute;
+    top: 0;
+    left: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 380px;
 }
 
-
+.content .character-name {
+    
+}
 
