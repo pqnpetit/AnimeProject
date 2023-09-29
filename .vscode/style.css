@@ -12,6 +12,17 @@ body {
     background-color: #000000;
 }
 
+main::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 80vw;
+
+    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+}
+
 main .character {
     display: none;
     height: 100vh;
@@ -35,8 +46,9 @@ main .character .image {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 80vh;
     max-width: 380px;
+    z-index: 1;
 }
 
 .content .character-name {
@@ -52,4 +64,13 @@ main .character .image {
     font-family: "Rubik";
     line-height: 24px;
 }
+
+.content .logo {
+    background-image: url(../Imagens/zJujutsuKaisen.png);
+    background-size: cover;
+    height: 150px;
+    width: 230px;
+    margin-bottom: 15px;
+}
+
 
