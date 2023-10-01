@@ -1,1 +1,3 @@
-document.getElementById('KentoNanami')
+
+const buttons = document.querySelectorAll('.button')
+
